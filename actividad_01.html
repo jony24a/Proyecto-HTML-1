@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/styles01.css"/>
+    <title>Actividad 1</title>
+</head>
+<body>
+    <h1>Talleres de Poesia</h1>
+        <p>LLevamos a cabo una serie de talleres y simposios de poesia durante todo el año.</p>
+        <p>Tengan en cuenta que los siguientes eventos son gratuitos para los miembros de la comunidad:</p>
+        <ul>
+            <li>Poesia Clasica</li>
+            <li>Realismo Magico</li>
+            <li>Obras de Nadaismo</li>
+        </ul>
+        <table>
+            <tr class="head">
+                <th>Bogota</th>
+                <th>Ibague</th>
+                <th>Medellin</th>
+            </tr>
+            <tr>
+                <th>Poesia Clasica</th>
+                <td>Sab, 4 Feb 2023<br />11am - 2pm</td>
+                <td>Sab, 3 Mar 2023<br />11am - 2pm</td>
+                <td>Sab, 17 Mar 2023<br />11am - 2pm</td>
+            </tr>
+            <tr>
+                <th>Realismo Magico</th>
+                <td>Sab, 7 Abr 2023<br />11am - 1pm</td>
+                <td>Sab, 5 May 2023<br />11am - 1pm</td>
+                <td>Sab, 19 May 2023<br />11am - 1pm</td>
+            </tr>
+            <tr>
+                <th>Obras de Nadaismo</th>
+                <td>Sab, 9 Jun 2023<br />11am - 2pm</td>
+                <td>Sab, 7 Jul 2023<br />11am - 2pm</td>
+                <td>Sab, 21 Jul 2023<br />11am - 2pm</td>
+            </tr>
+            <tr>
+                <th>Nuevas Corrientes</th>
+                <td>Sab, 4 Ago 2023<br />11am - 4pm</td>
+                <td>Sab, 8 Sep 2023<br />11am - 4pm</td>
+                <td>Sab, 15 Sep 2023<br />11am - 4pm</td>
+            </tr>
+        </table>
+        <form action="actividad_02.html" method="get">
+            <fieldset>
+                <h2>Registrese en el taller de su interes:</h2>
+                <p><label class="title" for="name">Su nombre:</label>
+                <input type="text" name="name" id="name"><br />
+                <label class="title" for="email">Su correo:</label>
+                <input type="text" name="email" id="email"></p>
+                <p><label for="location" class="title">Su centro cercano:</label>
+                <select name="location" id="location">
+                    <option value="bo">Bogota</option>
+                    <option value="ib">Ibague</option>
+                    <option value="me">Medellin</option>
+                </select></p>
+                <span class="title">Es Miembro de la Comunidad?</span>
+                <label><input type="radio" name="member" value="si">Si</label>
+                <label><input type="radio" name="member" value="no">No</label>
+            </fieldset>
+            
+            <div class="submit"><imput type="submit" value="Registro" /><div>
+        </form>
+</body>
+</html>
